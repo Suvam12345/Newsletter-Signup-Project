@@ -65,9 +65,3 @@ app.post("/failure",function(req,res){
 app.listen(process.env.PORT || 3000,function(){ //'process.env.PORT' - as 'Heroku' may not use port 3000, it may use any port. 'process.env.PORT' is a dynamic port.
     console.log("Server is running on port 3000");
 });
-
-//API Key (Mailchimp)
-//f4601d2bf8a6c04156d4126d66d9b8e8-us8
-
-//List ID (Audience ID)
-//13e316dd3a
